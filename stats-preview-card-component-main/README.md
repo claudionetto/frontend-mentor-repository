@@ -22,7 +22,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Resultado Final](.images/screenshot.png)
+![Resultado Final](./images/screenshot.png)
 
 ### Links
 
