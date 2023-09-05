@@ -1,0 +1,29 @@
+@import 'partials/_var.scss';
+@import 'partials/_card.scss';
+@import 'partials/_utils.scss';
+@import 'partials/attribution';
+@import 'partials/_media.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $clr-bg-very-dark-blue;
+    font-family: $ff-inter;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 100%;
+}
+

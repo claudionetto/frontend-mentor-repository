@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+  </head>
+  <body>
+    <main>
+      <article class="card">
+        <picture class="card-img"
+          >
+          <div class="card-img-overlay"></div>
+          <source srcset="images/image-header-desktop.jpg" media="(min-width: 1000px)">
+          <img src="images/image-header-mobile.jpg" alt=""
+        /></picture>
+        <div class="card-content">
+          <h1 class="card-content-title">
+            Get <span>insights</span> that help your business grow.
+          </h1>
+          <p class="card-content-description">
+            Discover the benefits of data analytics and make better decisions
+            regarding revenue, customer experience, and overall efficiency.
+          </p>
+          <div class="card-content-numbers">
+            <div class="flex-column">
+              <p class="number">10k+</p>
+              <p class="text">companies</p>
+            </div>
+            <div class="flex-column">
+              <p class="number">314</p>
+              <p class="text">templates</p>
+            </div>
+            <div class="flex-column">
+              <p class="number">12M+</p>
+              <p class="text">queries</p>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/claudionetto" target="_blank">Claudio Netto Junior</a>.
+    </footer>
+    </div>
+  </body>
+</html>

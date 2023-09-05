@@ -1,0 +1,22 @@
+.attribution {
+    padding: 10px;
+    color: white;
+    display: none;
+    font-size: 1rem;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .attribution a {
+    text-decoration: none;
+    color: $clr-soft-violet;
+  }
+
+  @media screen and (min-width: 1000px) {
+
+    .attribution{
+      display: block;
+    }
+  }

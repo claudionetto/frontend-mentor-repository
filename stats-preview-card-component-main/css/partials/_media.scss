@@ -1,0 +1,50 @@
+@media screen and (min-width: 1000px) {
+    .card{
+        flex-direction: row;
+        max-width: 1000px;
+        height: 400px;
+
+        &-img{
+            flex: 1 0 50%;
+            order: 1;
+        }
+
+        &-content{
+            padding: 65px 85px 65px 65px;
+            flex: 1 1 50%;
+            text-align: start;
+
+            &-title{
+                font-size: 2rem;
+                margin-bottom: 1.5rem;
+            }
+
+            &-description{
+                font-size: 0.85rem;
+                line-height: 160%;
+                margin-bottom: 4rem;
+            }
+
+            &-numbers{
+                flex-direction: row;
+                gap: 3rem;
+
+                
+                .number{
+                    font-weight: $fw-bold;
+                    font-size: 1.3rem;
+                }
+                
+                .text{
+                    text-transform: uppercase;
+                    letter-spacing: .1em;
+                    font-weight: $fw-regular;
+                    font-family: $ff-lexend-deca;
+                    font-size: 0.7rem;
+                    color: $clr-slightly-transparent-headings;
+                }
+            }
+            
+        }
+    }
+}
