@@ -1,5 +1,7 @@
 .card{
-    max-width: 330px;
+    min-width: 330px;
+    max-width: 600px;
+    margin: 20px;
     border-radius: .5rem;
     overflow: hidden;
     background-color: $clr-bg-dark-desaturated-blue;
