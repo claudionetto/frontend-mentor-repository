@@ -23,13 +23,11 @@ Users should be able to:
 ### Screenshot
 
 ![Desktop](./design/screenshots/desktop.png)
-![Tablet](./design/screenshots/tablet.png)
-![Mobile](./design/screenshots/mobile.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/flexbox-scss-four-card-3-1mjllndX)
+- Live Site URL: [Live Site](https://fem-four-card.vercel.app/)
 
 ## My process
 
