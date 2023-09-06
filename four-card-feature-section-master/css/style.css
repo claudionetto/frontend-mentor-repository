@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+main {
+  background-color: hsl(0, 0%, 98%);
+  max-width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 30px;
+}
+@media screen and (min-width: 768px) {
+  main {
+    padding: 30px 0;
+  }
+}
+
+.text-wrapper {
+  max-width: 400px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+.text-wrapper h1 {
+  font-weight: 400;
+  color: hsl(229, 6%, 66%);
+  font-size: 1.5rem;
+  line-height: 100%;
+}
+.text-wrapper h2 {
+  margin-top: 0.8rem;
+  color: hsl(234, 12%, 34%);
+  font-size: 1.55rem;
+  line-height: 100%;
+}
+.text-wrapper p {
+  color: hsl(229, 6%, 66%);
+  font-size: 1rem;
+  margin-top: 1.3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .text-wrapper {
+    max-width: 500px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+  .text-wrapper h1 {
+    font-size: 2.2rem;
+    line-height: 100%;
+  }
+  .text-wrapper h2 {
+    margin-top: 0.6rem;
+    font-size: 2.2rem;
+    line-height: 100%;
+  }
+  .text-wrapper p {
+    font-size: 1rem;
+  }
+}
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.card-2 {
+  display: flex;
+  flex-flow: column;
+  gap: 30px;
+}
+
+.card {
+  border-radius: 10px;
+  background-color: white;
+  border-top: 5px solid black;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+  flex-basis: 1;
+  padding: 25px;
+}
+.card-title {
+  font-size: 1.3rem;
+}
+.card-description {
+  color: hsl(229, 6%, 66%);
+  font-size: 0.9rem;
+  line-height: 150%;
+  margin-bottom: 20px;
+}
+.card-img {
+  width: 70px;
+  margin-top: auto;
+  align-self: flex-end;
+}
+.card--supervisor {
+  border-color: hsl(180, 62%, 55%);
+}
+.card--team-builder {
+  border-color: hsl(0, 78%, 62%);
+}
+.card--karma {
+  border-color: hsl(34, 97%, 64%);
+}
+.card--calculator {
+  border-color: hsl(212, 86%, 64%);
+}
+
+@media screen and (min-width: 768px) {
+  .card-wrapper {
+    flex-flow: row wrap;
+  }
+  .card-2 {
+    flex-direction: row;
+    order: 1;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .card-wrapper {
+    flex-direction: row;
+  }
+  .card-2 {
+    flex-direction: column;
+    order: 0;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+}
+
+img {
+  max-width: 100%;
+}/*# sourceMappingURL=style.css.map */

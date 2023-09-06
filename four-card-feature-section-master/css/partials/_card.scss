@@ -1,0 +1,83 @@
+.card-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card-2{
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+}
+
+.card{
+    border-radius: 10px;
+    background-color: white;
+    border-top: 5px solid black;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 5px;
+    flex-basis: 1;
+    padding: 25px;
+
+    &-title{
+        font-size: 1.3rem;
+    }
+
+    &-description{
+        color: $clr-grayish-blue;
+        font-size: .9rem;
+        line-height: 150%;
+        margin-bottom: 20px;
+    }
+
+    &-img{
+        width: 70px;
+        margin-top: auto;
+        align-self: flex-end;
+    }
+
+    &--supervisor{
+        border-color: $clr-cyan;
+    }
+    &--team-builder{
+        border-color: $clr-red;
+    }
+    &--karma{
+        border-color: $clr-orange;
+    }
+    &--calculator{
+        border-color: $clr-blue;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .card-wrapper{
+        flex-flow: row wrap;
+    }
+
+    .card-2{
+        flex-direction: row;
+        order: 1;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .card-wrapper{
+        flex-direction: row;
+    }
+
+    .card-2{
+        flex-direction: column;
+        order: 0;
+    }
+}
+
+
