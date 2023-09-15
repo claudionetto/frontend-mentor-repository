@@ -25,13 +25,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/screenshots/desktop.png)
-![](./design/screenshots1/desktop.png)
+![](./design/screenshots/screenshot.png)
+![](./design/screenshots/screenshot1.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/mobilefirst-flexbox-interactive-rating-component-9P8-6AYT63)
+- Live Site URL: [Live Site](https://fem-interactive-rating-component-pi.vercel.app/)
 
 ## My process
 
@@ -44,6 +44,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@claudionetto](https://www.frontendmentor.io/profile/claudionetto)
+- Linkedin - [Claudio Netto Junior](https://www.linkedin.com/in/cl%C3%A1udio-netto-junior-12b359209/)
+
